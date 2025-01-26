@@ -1,4 +1,4 @@
-# Sudda Hut Padah Admin
+# Suddah Utpadah Admin
 
 ## Overview
 **Sudda Hut Padah Admin** is an Android application built using the **MVVM architecture** to manage and monitor data related to users, services, orders, and categories. 
