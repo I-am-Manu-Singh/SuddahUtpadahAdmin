@@ -29,7 +29,6 @@ This admin panel allows for seamless data entry, tracking, and operations via Fi
 - **UI Framework**: Jetpack Compose and XML
 - **Utilities**: Shared Preferences for local storage.
 
-## Project Structure
 ## Project File Structure
 ```
 com.neatroots.suddahutpadahadmin
