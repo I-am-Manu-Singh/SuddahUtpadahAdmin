@@ -34,52 +34,52 @@ This admin panel allows for seamless data entry, tracking, and operations via Fi
 ```
 com.neatroots.suddahutpadahadmin
 ├── activities
-│   ├── AuthActivity
-│   ├── HomeMainActivity
-│   ├── SplashActivity
-│   ├── WelcomeActivity
+│   ├── AuthActivity          // Handles user authentication flow (login, register).
+│   ├── HomeMainActivity      // Main activity after successful login, serves as the base UI.
+│   ├── SplashActivity        // Initial loading screen, checks authentication status.
+│   ├── WelcomeActivity       // Displays onboarding or welcome UI for new users.
 ├── adapter
-│   ├── CategoryAdapter
-│   ├── OrderedUserAdapter
-│   ├── OrdersAdapter
-│   ├── OrdersListAdapter
-│   ├── ServiceAdapter
-│   ├── UserAdapter
+│   ├── CategoryAdapter       // RecyclerView adapter for displaying a list of categories.
+│   ├── OrderedUserAdapter    // Adapter for listing users who placed orders.
+│   ├── OrdersAdapter         // Adapter for managing and displaying a list of orders.
+│   ├── OrdersListAdapter     // Adapter for viewing order details in a list.
+│   ├── ServiceAdapter        // Adapter for displaying available services in a RecyclerView.
+│   ├── UserAdapter           // Adapter for listing users with detailed information.
 ├── factory
-│   ├── AuthViewModelFactory
-│   ├── MainViewModelFactory
+│   ├── AuthViewModelFactory  // Factory class for providing the AuthViewModel instance.
+│   ├── MainViewModelFactory  // Factory class for providing the MainViewModel instance.
 ├── fragmentauth
-│   ├── ForgetPasswordFragment
-│   ├── LoginFragment
-│   ├── RegisterFragment
-│   ├── VerificationFragment
+│   ├── ForgetPasswordFragment // UI for resetting a user's password via email.
+│   ├── LoginFragment          // UI for logging in the admin user.
+│   ├── RegisterFragment       // UI for admin registration (if applicable).
+│   ├── VerificationFragment   // Handles email or OTP verification for authentication.
 ├── fragments
-│   ├── AddServiceFragment
-│   ├── CategoryFragment
-│   ├── EditServiceFragment
-│   ├── HomeFragment
-│   ├── OrdersFragment
-│   ├── OrdersListFragment
-│   ├── UserDetailsFragment
-│   ├── UserOrderListFragment
-│   ├── UsersListFragment
+│   ├── AddServiceFragment     // UI for adding a new service to the database.
+│   ├── CategoryFragment       // UI for managing and viewing service categories.
+│   ├── EditServiceFragment    // UI for editing service details.
+│   ├── HomeFragment           // Main dashboard screen with overview metrics.
+│   ├── OrdersFragment         // UI for managing and tracking all orders.
+│   ├── OrdersListFragment     // Displays details of individual orders in a list.
+│   ├── UserDetailsFragment    // UI for viewing detailed information about a specific user.
+│   ├── UserOrderListFragment  // Displays the list of orders placed by a specific user.
+│   ├── UsersListFragment      // UI for displaying and managing a list of users.
 ├── model
-│   ├── CartModel
-│   ├── CategoryModel
-│   ├── EmailModel
-│   ├── OrderModel
-│   ├── ProductModel
-│   ├── UserModel
+│   ├── CartModel              // Data class for representing cart-related data.
+│   ├── CategoryModel          // Data class for representing service category details.
+│   ├── EmailModel             // Data class for representing email data.
+│   ├── OrderModel             // Data class for representing order details.
+│   ├── ProductModel           // Data class for representing product details (if applicable).
+│   ├── UserModel              // Data class for representing user data.
 ├── repository
-│   ├── AuthRepository
-│   ├── MainRepository
+│   ├── AuthRepository         // Handles Firebase Authentication operations.
+│   ├── MainRepository         // Handles database operations (Firestore, etc.).
 ├── utils
-│   ├── Constants
-│   ├── SharedPref
-│   ├── Utils
+│   ├── Constants              // Stores constant values such as collection names or paths.
+│   ├── SharedPref             // Handles shared preferences for local data storage.
+│   ├── Utils                  // Utility functions used across the app (e.g., formatting).
 ├── viewmodel
-│   ├── AuthViewModel
-│   ├── MainViewModel
+│   ├── AuthViewModel          // ViewModel for managing authentication-related UI data.
+│   ├── MainViewModel          // ViewModel for managing app-wide data operations.
 ```
 
 ### Key Folders:
