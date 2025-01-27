@@ -1,7 +1,7 @@
 # Suddah Utpadah Admin
 
 ## Overview
-**Sudda Hut Padah Admin** is an Android application built using the **MVVM architecture** to manage and monitor data related to users, services, orders, and categories. 
+**Sudda Utpadah Admin** is an Android application built using the **MVVM architecture** to manage and monitor data related to users, services, orders, and categories. 
 This admin panel allows for seamless data entry, tracking, and operations via Firebase Firestore and Firebase Authentication.
 
 ## Features
