@@ -24,7 +24,7 @@ This admin panel allows for seamless data entry, tracking, and operations via Fi
   - Email verification for security.
 
 
---
+---
 
 ## Tech Stack
 - **Language**: Kotlin
@@ -34,7 +34,7 @@ This admin panel allows for seamless data entry, tracking, and operations via Fi
 - **UI Framework**: Jetpack Compose and XML
 - **Utilities**: Shared Preferences for local storage.
 
---
+---
 
 ## Project File Structure
 
