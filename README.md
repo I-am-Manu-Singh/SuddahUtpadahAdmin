@@ -4,6 +4,8 @@
 **Sudda Utpadah Admin** is an Android application built using the **MVVM architecture** to manage and monitor data related to users, services, orders, and categories. 
 This admin panel allows for seamless data entry, tracking, and operations via Firebase Firestore and Firebase Authentication.
 
+---
+
 ## Features
 - **User Management**:
   - Add, update, and delete users.
@@ -21,6 +23,9 @@ This admin panel allows for seamless data entry, tracking, and operations via Fi
   - Admin login and password recovery.
   - Email verification for security.
 
+
+--
+
 ## Tech Stack
 - **Language**: Kotlin
 - **Architecture**: MVVM (Model-View-ViewModel)
@@ -29,8 +34,11 @@ This admin panel allows for seamless data entry, tracking, and operations via Fi
 - **UI Framework**: Jetpack Compose and XML
 - **Utilities**: Shared Preferences for local storage.
 
+--
+
 ## Project File Structure
-```
+
+```yaml
 com.neatroots.suddahutpadahadmin
 ├── activities
 │   ├── AuthActivity          // Handles user authentication flow (login, register).
@@ -81,6 +89,8 @@ com.neatroots.suddahutpadahadmin
 │   ├── MainViewModel          // ViewModel for managing app-wide data operations.
 ```
 
+---
+
 ### Key Folders:
 - **`activities`**: Contains activity classes for authentication, onboarding, and main navigation.
 - **`fragments`**: Fragments for each feature, such as managing users, orders, and services.
@@ -89,6 +99,8 @@ com.neatroots.suddahutpadahadmin
 - **`repository`**: Handles Firebase interaction for data fetching and updates.
 - **`model`**: Data classes for orders, users, and services.
 - **`utils`**: Contains reusable utility classes, constants, and shared preferences.
+
+---
 
 ## Installation
 1. Clone the repository:
@@ -100,8 +112,12 @@ com.neatroots.suddahutpadahadmin
 4. Sync the project with Gradle files.
 5. Run the app on an emulator or physical device.
 
+---
+
 ## Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
 
 ## License
 This project is licensed under the MIT License.
