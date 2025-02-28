@@ -114,8 +114,9 @@ com.neatroots.suddahutpadahadmin
 
 ---
 
-## Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+## Screenshots & App Demo Video
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/0HtzRC8jP4A/0.jpg)](https://www.youtube.com/watch?v=0HtzRC8jP4A)
 
 ---
 
